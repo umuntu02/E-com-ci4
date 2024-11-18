@@ -28,7 +28,7 @@
         </section>
 
 
-        <script src="<?= base_url(); ?>/public/assets/script.js"></script>
+        <script src="<?= base_url(); ?>/public/assets/js/script.js"></script>
     </body>
 
 </html>
