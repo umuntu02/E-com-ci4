@@ -14,7 +14,7 @@
 
     <body class="light">
         <section id="header">
-            <a href="#"><img src="img/logo.png" class="logo" alt="" ></a>
+            <a href="#"><img src="<?= base_url(); ?>/public/assets/img/logo.png" class="logo" alt="" ></a>
             <div>
                 <ul id="navbar">
                     <li><a class="active" href="index.html">Home</a></li>
@@ -28,7 +28,7 @@
         </section>
 
 
-        <script src="script.js"></script>
+        <script src="<?= base_url(); ?>/public/assets/script.js"></script>
     </body>
 
 </html>
