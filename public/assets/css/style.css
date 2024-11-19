@@ -17,8 +17,7 @@ html {
   --backgroundColor: #f1f8fc;
   --darkOne: #1a1a1a;
   --darkTwo: #222;
-  --darkTree: #465b52;
-  --lightOne: #919191;
+  --lightOne: #088178;
   --lightTwo: #aaa;
 }
 
@@ -27,8 +26,8 @@ html {
   --hoverColor: #088178;
   --backgroundColor: #192e3a;
   --darkOne: #fafafa;
-  --darkTwo: #fff;
-  --lightOne: #ccc;
+  --darkTwo: #e2e2e2;
+  --lightOne: #88c1bd;
   --lightTwo: #e7e3e3;
 }
 
@@ -192,4 +191,41 @@ p {
   100% {
     clip-path: circle(150% at 0 0);
   }
+}
+
+
+/* Home Page */
+#hero{
+  background-image: url("/public/assets/img/hero4.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4{
+  padding-bottom: 15px;
+  color: val(--darkTwo);
+}
+
+#hero h1{
+  color:val(--lightOne) ;
+}
+
+#hero button{
+  background-image: url("/public/assets/img/button.png");
+  background-color: transparent;
+  color: val(--mainColor);
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  font-style: italic;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 16px;
 }
