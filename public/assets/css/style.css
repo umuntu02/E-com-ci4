@@ -127,7 +127,7 @@ p {
 
 
 .bottom-area {
-  position: fixed;
+  position: absolute;
   bottom: 10px;
   left: 10px;
 }
