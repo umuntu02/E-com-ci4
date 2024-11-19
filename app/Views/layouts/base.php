@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <main>
     <div class="big-wrapper light">
         <?php $view->renderSection('nav'); ?>
 
@@ -31,7 +30,7 @@
 
         <script src="/public/assets/js/script.js"></script>
     </div>
-    </main>
+
 </body>
 
 </html>
