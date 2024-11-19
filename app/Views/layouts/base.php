@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="/public/assets/css/style.css">
     </head>
 
-    <body class="light">
+    <body class="dark">
     <?php $view->renderSection('nav');?>
 
 
-        <script src="script.js"></script>
+        <script src="/public/assets/script.js"></script>
     </body>
 
 </html>
