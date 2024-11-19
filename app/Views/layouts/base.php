@@ -16,7 +16,7 @@
     <?php $view->renderSection('nav');?>
 
 
-        <script src="/public/assets/script.js"></script>
+        <script src="/public/assets/js/script.js"></script>
     </body>
 
 </html>
