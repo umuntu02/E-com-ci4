@@ -146,16 +146,16 @@ p {
 .toggle-btn:hover {
   background: var(--mainColor);
 }
-#light .toggle-btn i:last-child {
+#light.bottom-area  .toggle-btn i:last-child {
   display: none;
 }
-#light .toggle-btn i:first-child {
+#light.bottom-area  .toggle-btn i:first-child {
   display: block;
 }
-#dark .toggle-btn i:last-child {
+#dark .bottom-area .toggle-btn i:last-child {
   display: block;
 }
-#dark .toggle-btn i:first-child {
+#dark .bottom-area .toggle-btn i:first-child {
   display: none;
 }
 
