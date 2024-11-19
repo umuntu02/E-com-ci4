@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="big-wrapper .light">
+    <div class="big-wrapper light">
         <?php $view->renderSection('nav'); ?>
 
 
