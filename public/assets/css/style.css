@@ -125,6 +125,13 @@ p {
 
 /* toogle button */
 
+
+.bottom-area {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
 .toggle-btn {
   display: inline-block;
   border: none;
