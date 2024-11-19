@@ -70,8 +70,12 @@ p {
   margin: 40px 0;
 }
 
-body {
+.big-wrapper {
+  position: relative;
   width: 100%;
+  min-height: 100vh;
+  background-color: var(--backgroundColor);
+
 }
 /* Header Start */
 #header{
@@ -143,19 +147,19 @@ body {
   background: var(--mainColor);
 }
 
-.light .bottom-area .container .toggle-btn i:last-child {
+.big-wrapper.light .toggle-btn i:last-child {
   display: none;
 }
 
-.light .bottom-area .container .toggle-btn i:first-child {
+.big-wrapper.light .toggle-btn i:first-child {
   display: block;
 }
 
-.dark .bottom-area .container .toggle-btn i:last-child {
+.big-wrapper.dark .toggle-btn i:last-child {
   display: block;
 }
 
-.dark .bottom-area .container .toggle-btn i:first-child {
+.big-wrapper.dark .toggle-btn i:first-child {
   display: none;
 }
 
