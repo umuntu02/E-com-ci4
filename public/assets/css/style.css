@@ -11,7 +11,7 @@ html {
 }
 
 /* Dark and light mode */
-.light {
+#light {
   --mainColor: #099;
   --hoverColor: #088178;
   --backgroundColor: #f1f8fc;
@@ -22,7 +22,7 @@ html {
   --lightTwo: #aaa;
 }
 
-.dark {
+#dark {
   --mainColor: #099;
   --hoverColor: #088178;
   --backgroundColor: #192e3a;
@@ -146,20 +146,16 @@ p {
 .toggle-btn:hover {
   background: var(--mainColor);
 }
-
-.big-wrapper.light .toggle-btn i:last-child {
+#light .toggle-btn i:last-child {
   display: none;
 }
-
-.big-wrapper.light .toggle-btn i:first-child {
+#light .toggle-btn i:first-child {
   display: block;
 }
-
-.big-wrapper.dark .toggle-btn i:last-child {
+#dark .toggle-btn i:last-child {
   display: block;
 }
-
-.big-wrapper.dark .toggle-btn i:first-child {
+#dark .toggle-btn i:first-child {
   display: none;
 }
 

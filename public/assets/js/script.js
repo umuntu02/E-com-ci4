@@ -1,31 +1,15 @@
-// Select The Elements
-var toggle_btn;
-var big_wrapper;
+// Sélectionner les éléments
+const toggleBtn = document.querySelector(".toggle-btn");
+const bigWrapper = document.querySelector(".big-wrapper");
 
-function declare() {
-  toggle_btn = document.querySelector(".toggle-btn");
-  big_wrapper = document.querySelector(".big-wrapper");
-}
-
-declare();
-
-let dark = false;
-
+// Fonction pour basculer entre les thèmes
 function toggleTheme() {
-  // Toggle dark/light mode by changing the class on the big wrapper
-  dark = !dark;
-  if (dark) {
-    big_wrapper.classList.remove("light");
-    big_wrapper.classList.add("dark");
+  if (bigWrapper.id === "light") {
+    bigWrapper.id = "dark"; // Changer l'ID en "dark"
   } else {
-    big_wrapper.classList.remove("dark");
-    big_wrapper.classList.add("light");
+    bigWrapper.id = "light"; // Revenir à "light"
   }
 }
 
-function events() {
-  toggle_btn.addEventListener("click", toggleTheme);
-}
-
-// Initialize events
-events();
+// Ajouter un gestionnaire d'événement au bouton toggle
+toggleBtn.addEventListener("click", toggleTheme);

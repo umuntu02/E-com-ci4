@@ -13,18 +13,16 @@
 </head>
 
 <body>
-    <div class="big-wrapper light">
+    <div class="big-wrapper" id="light">
         <?php $view->renderSection('nav'); ?>
 
 
 
         <div class="bottom-area">
-            <div class="container">
                 <button class="toggle-btn">
                     <i class="far fa-moon"></i>
                     <i class="far fa-sun"></i>
                 </button>
-            </div>
         </div>
 
 
