@@ -81,7 +81,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 0px 40px;
   background-color: var(--backgroundColor);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
 
@@ -197,6 +197,7 @@ p {
 /* Home Page */
 #hero{
   background-image: url("/public/assets/img/hero4.png");
+  background-color: var(--backgroundColor);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -210,17 +211,17 @@ p {
 
 #hero h4{
   padding-bottom: 15px;
-  color: val(--darkTwo);
+  color: var(--darkTwo);
 }
 
 #hero h1{
-  color:val(--lightOne) ;
+  color:var(--lightOne) ;
 }
 
 #hero button{
   background-image: url("/public/assets/img/button.png");
   background-color: transparent;
-  color: val(--mainColor);
+  color: var(--mainColor);
   border: 0;
   padding: 14px 80px 14px 65px;
   font-style: italic;
