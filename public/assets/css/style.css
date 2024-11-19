@@ -126,7 +126,7 @@ p {
 /* toogle button */
 
 
-.bottom-area {
+.big-wrapper .bottom-area {
   display: block;
   position: fixed;
   width: 100%;
