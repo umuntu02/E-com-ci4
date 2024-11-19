@@ -9,7 +9,7 @@
         <title>Boutique en Ligne</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
-        <link rel="stylesheet" href="<?= baseURL(); ?>/public/assets/css/style.css">
+        <link rel="stylesheet" href="<?= basURL(); ?>/public/assets/css/style.css">
     </head>
 
     <body class="light">
