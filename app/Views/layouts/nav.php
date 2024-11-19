@@ -9,7 +9,7 @@ function activeClass(string $value)
 }
 
 ?>
-<?php $view->extend('templates/base');?>
+<?php $view->extend('layouts/base');?>
 <?php $view->section('nav');?>
         <section id="header">
                     <a href="#"><img src="/public/assets/img/logo.png" class="logo" alt="" ></a>
