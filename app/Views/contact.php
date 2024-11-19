@@ -1,4 +1,4 @@
-<?php require __DIR__ . '/../_types.php'?>
+<?php require __DIR__ . '/_types.php'?>
 
 <?php $view->extend('layouts/nav');?>
 
