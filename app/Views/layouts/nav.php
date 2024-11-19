@@ -12,7 +12,7 @@ function activeClass(string $value, string $currentView)
 <?php $view->extend('layouts/base'); ?>
 <?php $view->section('nav'); ?>
 <section id="header">
-    <a href="#"><img src="/public/assets/img/logo.png" class="logo" alt=""></a>
+    <a href="/home"><img src="/public/assets/img/logo.png" class="logo" style="width: 140px;height:40px" alt=""></a>
     <div>
         <ul id="navbar">
             <li><a class="<?= activeClass('home', $viewName); ?>" href="/home">Home</a></li>
