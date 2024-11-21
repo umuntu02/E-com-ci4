@@ -32,4 +32,4 @@ toggleBtn.addEventListener("click", toggleTheme);
       }
 
       // Rafraîchir toutes les 5 secondes
-      setInterval(refreshBody, 5000);
+      setInterval(refreshBody, 5000); 
