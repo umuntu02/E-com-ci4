@@ -14,6 +14,6 @@ function toggleTheme() {
 // Ajouter un gestionnaire d'événement au bouton toggle
 toggleBtn.addEventListener("click", toggleTheme);
 
-//mise a jour tout les 5 secondes
+//mise a jour tout les 5
 
 
