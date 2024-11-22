@@ -231,7 +231,7 @@ button.white {
 
 /* Home Page */
 #hero{
-  background-image: url("/public/assets/img/hero4.png");
+  background-image: url("/public/assets/img/hero.png");
   background-color: var(--backgroundColor);
   height: 90vh;
   width: 100%;
@@ -267,15 +267,14 @@ button.white {
 }
 
 
-#feature{
+#feature {
   display: flex;
- align-items: center;
- justify-content: space-between;
- flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #feature .fe-box {
-
   width: 180px;
   text-align: center;
   padding: 25px 15px;
