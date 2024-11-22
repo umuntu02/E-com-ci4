@@ -69,6 +69,36 @@ p {
   margin: 40px 0;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #099;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solide #fff;
+  outline: none;
+  transition: 0.3s;
+
+}
+
+
+
+
 .big-wrapper {
   position: relative;
   width: 100%;
@@ -273,4 +303,215 @@ p {
   border-radius: 4px;
   color: var(--darkTwo);
   background-color: var(--lightTwo);
+}
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid var(--lightTwo);
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
+  margin: 15px 0;
+  transition: 0.02s ease;
+  position: relative;
+}
+
+#product1 .pro:hover{
+  transform: scale(1.1); /* Agrandit l'élément à 110% */
+  box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span{
+  color: var(--lightOne);
+  font-size: 12px;
+}
+
+#product1 .pro .des h5{
+  padding-top: 7px;
+  color: var(--darkOne);
+  font-size: 14px;
+}
+
+#product1 .pro .des i{
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#product .pro .des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--lightOne);
+}
+
+#product .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: var(--lightTwo);
+  font-weight: 500;
+  color: var(--mainColor);
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/public/assets/img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4 {
+  color: #fff;
+  font-size: 16px;
+}
+
+#banner h2{
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+#banner h2 span {
+  color: #099;
+  background-image: url("/public/assets/img/button.png");
+  background-color: transparent;
+  padding: 5px 5px 5px 5px;
+}
+
+#banner button.normal:hover{
+  transform: scale3d(1.1rem);
+  color: #fff;
+  background-color: #099;
+
+}
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("/public/assets/img/banner/b17.jpg");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2{
+  background-image: url("/public/assets/img/banner/b10.jpg");
+
+}
+
+#sm-banner h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#sm-banner span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover{
+  transform: scale3d(1.1rem);
+  color: #099;
+  background-color: #fff;
+  
+}
+
+#banner3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+
+}
+
+#banner3 .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("/public/assets/img/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+#banner3 .banner-box2{
+  background-image: url("/public/assets/img/banner/b4.jpg");
+
+}
+
+#banner3 .banner-box3{
+  background-image: url("/public/assets/img/banner/b18.jpg");
+  
+}
+
+#banner3 h2{
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 h3{
+  color: #700400;
+  font-weight: 800;
+  font-size: 15px;
 }
